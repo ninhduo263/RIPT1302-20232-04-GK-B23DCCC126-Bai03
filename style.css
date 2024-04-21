@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Product-Sans-Bold-italic';
+    src: url('https://unpkg.com/aks-fonts@1.0.0/Product-Sans/Product-Sans-Bold-italic.ttf');
+}
+
+@font-face {
+    font-family: 'Product-Sans-Bold';
+    src: url('https://unpkg.com/aks-fonts@1.0.0/Product-Sans/Product-Sans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Product-Sans-Regular';
+    src: url('https://unpkg.com/aks-fonts@1.0.0/Product-Sans/Product-Sans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Product-Sans-italic';
+    src: url('https://unpkg.com/aks-fonts@1.0.0/Product-Sans/Product-Sans-italic.ttf');
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #82CAAF;
+    color: #666;
+}
+
+body {
+    font-family: 'Product-Sans-Regular';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    background: white;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-top: 8px solid black;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#personal-info,
+#education,
+#experience,
+#skills,
+#links {
+    margin-bottom: 30px;
+}
+
+#personal-info h2,
+#education h2,
+#experience h2,
+#skills h2,
+#links h2 {
+    font-family: 'Product-Sans-Bold';
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#personal-info p,
+#education p,
+#experience p,
+#skills p,
+#links p {
+    font-family: 'Product-Sans-Regular';
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#skills strong {
+    font-weight: bold;
+}
+
+#links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
